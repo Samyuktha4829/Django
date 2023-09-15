@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link rel="stylesheet" href="{% static "css/movie.css" %}">
+</head>
+<body>
+    <div class="container" align="center">
+        <div class="jumbotron">
+            <h1>welcome to movies website</h1><hr>
+            <p>get the movie information and then enjoy</p>
+            <a class="btn btn-primary btn-lg" href="addmovies" role="button">add movie</a>
+            <a class="btn btn-primary btn-lg" href="/listmovies" role="button">list of movies</a>
+        </div>
+    </div>
+
+</body>
+</html>
